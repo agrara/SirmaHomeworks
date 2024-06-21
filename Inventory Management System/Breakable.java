@@ -1,9 +1,7 @@
 public interface Breakable {
 
-    public boolean breakable = true;
+    public void setBreakable(boolean breakable);
 
-    public void setBreakable();
-
-    public void getBreakable();
+    public boolean getBreakable();
 
 }

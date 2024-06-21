@@ -6,4 +6,8 @@ public interface Categorizable {
 
     public ArrayList<String> getItemCategories();
 
+    public void setCategorizable(boolean categorizable);
+
+    public boolean getCategorizable();
+
 }

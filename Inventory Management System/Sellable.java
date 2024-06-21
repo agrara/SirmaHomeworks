@@ -1,6 +1,6 @@
 public interface Sellable {
 
-    public void setItemPice();
+    public void setItemPice(double price);
 
     public double getItemPrice();
 
