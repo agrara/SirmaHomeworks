@@ -3,6 +3,11 @@ public class InventoryItem extends AbstractItem {
     private int itemID;
     private int itemQuantity;
 
+    public InventoryItem(int itemID, int itemQuantity) {
+        this.itemID = itemID;
+        this.itemQuantity = itemQuantity;
+    }
+
     public int getItemID() {
         return this.itemID;
     }
